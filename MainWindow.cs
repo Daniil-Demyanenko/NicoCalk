@@ -50,7 +50,7 @@ namespace NicoCalk
 
             double res = ToDouble(text_V.Text) * (ToDouble(text_K.Text) / 100) * ToDouble(text_Nico.Text) / (Nico / 100);
             res = Math.Round(res, 3);
-            lable_Result.Text = $"Добавить никотина {res} мл";
+            lable_Result.Text = $"Добавить никотина: {res} мл";
         }
 
         private double ToDouble(string s)
